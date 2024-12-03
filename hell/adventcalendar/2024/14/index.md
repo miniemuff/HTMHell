@@ -62,7 +62,7 @@ Let’s start with a simple example — a pagination that’s perfect for small 
 * **Intuitive Navigation**: The `aria-current="page"` attribute marks the current page and is read by VoiceOver on macOS as "Current page, Link, Page 1" providing screen reader users with a clear indication of which page they are on.
 * **Proper Deactivation**: A disabled link, such as "Back" on the first page, should have no href attribute and should be marked with `aria-disabled="true"` to ensure accessibility. Alternatively, a `<span>` element can be used in place of a link element with the aria-disabled attribute.
 
-## Pagination II
+## Pagination II 
 
 Let’s look at a pagination system that’s particularly suited for large websites like online shops or blogs. This enhanced pagination allows users to skip large blocks of pages while maintaining a clear structure.
 
